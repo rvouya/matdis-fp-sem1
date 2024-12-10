@@ -1,1 +1,3 @@
-# matdis-fp-sem1
+# Tutorial
+1. Git Clone
+2. Run

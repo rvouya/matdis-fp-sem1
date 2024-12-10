@@ -93,7 +93,7 @@ def menurank():
     return ("-- MENU RANK --\nRank 1 : Iron\nRank 2 : Silver \nRank 3 : Gold\nRank 4: Platinum")
 
 if __name__ == "__main__":
-    data = load_data("C:\coolyeahsem1\matdis-fp-sem1\soal2\dataset.csv")  # Pastikan path file CSV sesuai
+    data = load_data("dataset.csv")  # Pastikan path file CSV sesuai
     match_count = int(input("Masukkan jumlah pertandingan yang ingin dihitung: "))
     print(menurank())
     base_rank = int(input("Masukkan rank dasar untuk matchmaking (1-4): "))

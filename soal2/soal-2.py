@@ -3,7 +3,7 @@ import itertools
 import time
 
 # **1. Baca dataset**
-df = pd.read_csv(r"C:\coolyeahsem1\project\soal-2_dataset.csv")
+df = pd.read_csv("soal-2_dataset.csv")
 
 # Pastikan tipe data konsisten
 df["mmr"] = pd.to_numeric(df["mmr"], errors="coerce")

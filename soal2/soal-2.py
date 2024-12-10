@@ -7,7 +7,7 @@ df = pd.read_csv("soal-2_dataset.csv")
 
 # Pastikan tipe data konsisten
 df["mmr"] = pd.to_numeric(df["mmr"], errors="coerce")
-rank_mapping = {"Bronze": 1, "Silver": 2, "Gold": 3, "Platinum": 4, "Diamond": 5}  # Mapping rank ke nilai numerik
+rank_mapping = {"Iron": 1, "Silver": 2, "Gold": 3, "Platinum": 4, "Diamond": 5}  # Mapping rank ke nilai numerik
 df["rank_numeric"] = df["rank"].map(rank_mapping)
 df["latency"] = pd.to_numeric(df["latency"], errors="coerce")
 df["region"] = df["region"].astype(str)
